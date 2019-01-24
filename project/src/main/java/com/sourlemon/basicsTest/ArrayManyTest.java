@@ -1,5 +1,6 @@
 package com.sourlemon.basicsTest;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -43,6 +44,15 @@ public class ArrayManyTest {
         strList.add("Hello World");
 
         System.out.println(strList.size());
+
+    }
+
+    /**
+     * @author sourlemon
+     * @description 测试数组的<code>Contain</code>方法
+     */
+    public void testContain(){
+
 
     }
 

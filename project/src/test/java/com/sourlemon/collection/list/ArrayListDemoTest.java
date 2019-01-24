@@ -28,7 +28,8 @@ public void after() throws Exception {
 */ 
 @Test
 public void testTestArrayListAdd() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+    new ArrayListDemo().testArrayListAdd();
 } 
 
 /** 
@@ -38,7 +39,8 @@ public void testTestArrayListAdd() throws Exception {
 */ 
 @Test
 public void testTestArrayListAdds() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+    new ArrayListDemo().testArrayListAdds();
 } 
 
 /** 
@@ -48,7 +50,8 @@ public void testTestArrayListAdds() throws Exception {
 */ 
 @Test
 public void testTestArrayListSet() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+    new ArrayListDemo().testArrayListSet();
 } 
 
 

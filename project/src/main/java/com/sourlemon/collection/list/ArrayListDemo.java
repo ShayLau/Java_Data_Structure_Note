@@ -58,6 +58,7 @@ public class ArrayListDemo {
          */
         numList.add(0, 2);
         for (int i = 0; i < numList.size(); i++) {
+
             System.out.print(numList.get(i) + ",");
         }
     }
