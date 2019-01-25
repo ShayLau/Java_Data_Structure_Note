@@ -5,7 +5,7 @@ package com.sourlemon.basicsTest;
  * @date 2019-01-24
  * @desciption 位移运算测试
  */
-public class DisplacementTest {
+public class DisplacementDemo {
 
     /**
      * @author sourlemon

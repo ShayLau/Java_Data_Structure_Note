@@ -1,17 +1,18 @@
-package com.sourlemon.basicsTest; 
+package test.com.sourlemon.basicsTest; 
 
-import org.junit.Test; 
+import com.sourlemon.basicsTest.ArrayManyDemo;
+import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 
 /** 
-* ArrayManyTest Tester. 
+* ArrayManyDemo Tester. 
 * 
 * @author sourlemon
-* @since <pre>01/24/2019</pre> 
+* @since <pre>Jan 25, 2019</pre> 
 * @version 1.0 
 */ 
-public class ArrayManyTestTest { 
+public class ArrayManyDemoTest { 
 
 @Before
 public void before() throws Exception { 
@@ -28,7 +29,8 @@ public void after() throws Exception {
 */ 
 @Test
 public void testTestArrays() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+    new ArrayManyDemo().testArrays();
 } 
 
 /** 
@@ -38,6 +40,16 @@ public void testTestArrays() throws Exception {
 */ 
 @Test
 public void testTestListCapacity() throws Exception { 
+//TODO: Test goes here... 
+} 
+
+/** 
+* 
+* Method: testContain() 
+* 
+*/ 
+@Test
+public void testTestContain() throws Exception { 
 //TODO: Test goes here... 
 } 
 

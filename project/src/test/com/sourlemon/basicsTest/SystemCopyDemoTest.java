@@ -1,17 +1,17 @@
-package com.sourlemon.basicsTest; 
+package test.com.sourlemon.basicsTest; 
 
 import org.junit.Test; 
 import org.junit.Before; 
 import org.junit.After; 
 
 /** 
-* SystemCopyTest Tester. 
+* SystemCopyDemo Tester. 
 * 
 * @author sourlemon
-* @since <pre>01/24/2019</pre> 
+* @since <pre>Jan 25, 2019</pre> 
 * @version 1.0 
 */ 
-public class SystemCopyTestTest { 
+public class SystemCopyDemoTest { 
 
 @Before
 public void before() throws Exception { 

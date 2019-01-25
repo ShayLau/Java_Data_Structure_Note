@@ -1,4 +1,4 @@
-package com.sourlemon.collection.list; 
+package test.com.sourlemon.collection.list; 
 
 import org.junit.Test; 
 import org.junit.Before; 
@@ -8,7 +8,7 @@ import org.junit.After;
 * ArrayListDemo Tester. 
 * 
 * @author sourlemon
-* @since <pre>01/24/2019</pre> 
+* @since <pre>Jan 25, 2019</pre> 
 * @version 1.0 
 */ 
 public class ArrayListDemoTest { 
@@ -28,8 +28,7 @@ public void after() throws Exception {
 */ 
 @Test
 public void testTestArrayListAdd() throws Exception { 
-//TODO: Test goes here...
-    new ArrayListDemo().testArrayListAdd();
+//TODO: Test goes here... 
 } 
 
 /** 
@@ -39,8 +38,7 @@ public void testTestArrayListAdd() throws Exception {
 */ 
 @Test
 public void testTestArrayListAdds() throws Exception { 
-//TODO: Test goes here...
-    new ArrayListDemo().testArrayListAdds();
+//TODO: Test goes here... 
 } 
 
 /** 
@@ -50,8 +48,7 @@ public void testTestArrayListAdds() throws Exception {
 */ 
 @Test
 public void testTestArrayListSet() throws Exception { 
-//TODO: Test goes here...
-    new ArrayListDemo().testArrayListSet();
+//TODO: Test goes here... 
 } 
 
 

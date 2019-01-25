@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author sourlemon
  * @description 数组的拷贝测试
  */
-public class SystemCopyTest {
+public class SystemCopyDemo {
 
 
     /**

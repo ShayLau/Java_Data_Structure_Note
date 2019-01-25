@@ -10,7 +10,7 @@ import java.util.List;
  * @date 2019-01-23
  * @desciption 集合框架涉及到的一些知识点测试
  */
-public class ArrayManyTest {
+public class ArrayManyDemo {
 
 
     /**
