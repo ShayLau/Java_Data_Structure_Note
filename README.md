@@ -13,13 +13,14 @@ zheng
 ├── project -- 笔记的源码
 ├── blog -- 源码解析的文章
 	 ├── base --基础
-          ├── 浅析ArrayList   
-          ├── xx --待定
+          ├── 数组的拷贝   
+          ├── 换位运算符
           └── xx --待定
      ├── analyze --数据结构分析
-          ├── 换位运算符    
-          ├── 数组的拷贝
-          └── xx --待定
+          ├── 浅析ArrayList    
+          ├── 浅析LinkedList
+          ├── 浅析Stack 与Queue
+          └──  xx --待定
 ├── xx  --待定
      ├── xx --待定
      ├── xx --待定

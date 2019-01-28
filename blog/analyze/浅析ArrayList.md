@@ -22,37 +22,41 @@
 
 
 
-源码分析重要的一些字段,组成了Arraylist的代码逻辑,如下：
-
-`private static final int DEFAULT_CAPACITY = 10; //静态常量默认的容量`  
-
-`private static final Object[] EMPTY_ELEMENTDATA = {}; 空的数组元素`
-
-`private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};//默认的空数组元素`	
-
-`transient Object[] elementData; //ArrayList真正存放数组元素的信息`
-
-`private int size; //ArrayList 的数组大小`
+	源码分析重要的一些字段,组成了Arraylist的代码逻辑,如下：
+	
+	`private static final int DEFAULT_CAPACITY = 10; //静态常量默认的容量`  
+	
+	`private static final Object[] EMPTY_ELEMENTDATA = {}; 空的数组元素`
+	
+	`private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};//默认的空数组元素`	
+	
+	`transient Object[] elementData; //ArrayList真正存放数组元素的信息`
+	
+	 `private int size; //ArrayList 的数组大小`
 
 
 
 **怎么看方法解析：**
 
-	*先查看` add(int index, E element)`方法，其他的方法大致都是一样的，*细细查看该方法，后面基本可以快熟查阅。
 
-	*如果对数据结构基础不是很熟，请先阅读**第4部分 比较重要的部分**，一个是位移运算，一个是`System.ArrayCopy（...）`的文章说明。ArrayList其实就是操作数组元素的增删改查。*
+
+*先查看` add(int index, E element)`方法，其他的方法大致都是一样的，*细细查看该方法，后面基本可以快熟查阅。
+
+*如果对数据结构基础不是很熟，请先阅读**第4部分 比较重要的部分**，一个是位移运算，一个是`System.ArrayCopy（...）`的文章说明。ArrayList其实就是操作数组元素的增删改查。*
 
 
 
 **源码分析的版本说明：**
 
-	分析的Jdk版本为**jdk8**
+
+
+Jdk版本为**jdk8**
+
+
 
 
 
 #### 2.方法解析
-
-
 
 #### ***增加方法***
 
@@ -421,13 +425,11 @@ public boolean addAll(Collection<? extends E> c) {
 
 **方法签名：**
 
- ` addAll(Collection<? extends E> c)`  
+ 方法名:
 
- 方法名:`addAll`
+ 方法参数： 
 
- 方法参数： `Collection<? extends E> c`    泛型子类的集合
-
-
+暂未分析
 
 
 
@@ -686,7 +688,7 @@ public int indexOf(Object o) {
 
 #### 5.参阅文章
 
-	
+​	本文章参阅：[ArrayList分析](https://blog.csdn.net/zxt0601/article/details/77281231)
 
 
 
